@@ -32,7 +32,7 @@ class Spider(Spider):
     host='http://ldys.sq1005.top'
 
     headers = {
-        'User-Agent': 'okhttp/4.12.0',
+        'User-Agent': 'okhttp',
         'client': 'app',
         'deviceType': 'Android'
     }
