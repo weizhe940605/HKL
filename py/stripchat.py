@@ -152,7 +152,7 @@ class Spider(Spider):
         return result
 
     def playerContent(self, flag, id, vipFlags):
-        domain = f"https://edge-hls.growcdnssedge.com/hls/{id}/master/{id}_auto.m3u8?playlistType=lowLatency"
+        domain = f"https://5721004.xyz/player/?url=https://edge-hls.doppiocdn.net/hls/{id}/master/{id}_auto.m3u8?playlistType=lowLatency"
         rsp = requests.get(domain, headers=self.headers).text
         lines = rsp.strip().split('\n')
         psch = ''
